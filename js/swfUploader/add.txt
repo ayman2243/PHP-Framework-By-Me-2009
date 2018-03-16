@@ -1,0 +1,4 @@
+swfupload/swfupload.js
+swfupload.queue.js
+fileprogress.js
+handlers.js

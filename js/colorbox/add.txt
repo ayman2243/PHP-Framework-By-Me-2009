@@ -1,0 +1,2 @@
+example1/colorbox.css
+colorbox/jquery.colorbox-min.js

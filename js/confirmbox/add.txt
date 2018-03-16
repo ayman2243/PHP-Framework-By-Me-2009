@@ -1,0 +1,3 @@
+jquery.confirm.css
+jquery.confirm.js
+script.js

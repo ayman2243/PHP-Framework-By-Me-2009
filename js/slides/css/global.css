@@ -1,0 +1,129 @@
+
+
+
+#example {
+	width:980px;
+	height:400px;
+	position:relative;
+	/*background:#000;*/
+}
+
+/*
+	Slideshow style
+*/
+
+#slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	If height not specified height will be set by the slide content
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:980px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	Offeset for the 20px of padding
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#slides .slide {
+	padding:20px;
+	width:980px;
+	height:400px;
+	display:block;
+	overflow:hidden;
+}
+
+
+/*
+	Next/prev buttons
+*/
+#slides .next,#slides .prev {
+	position:absolute;
+	top:200px;
+	left:-47px;
+	display:none;
+	z-index:101;
+}
+
+#slides .next {
+	left:980px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:0px auto;
+	width:132px;
+	
+
+	
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:31px;
+	height:33px;
+	background:url(../img/pagination2.png) center no-repeat;
+	font-size:0px;
+	color:#1d1e1b;
+
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background:url(../img/pagination-hover.png) center no-repeat;
+}
+
+/*
+	Footer
+*/
+
+#footer {
+	text-align:center;
+	width:580px;
+	margin-top:9px;
+	padding:4.5px 0 18px;
+	border-top:1px solid #dfdfdf;
+}
+
+#footer p {
+	margin:4.5px 0;
+	font-size:1.0em;
+}
+
+/*
+	Type and anchors
+*/
+
+#slides .link {
+	display:block;
+	margin-top:10px;
+	font-weight:800;
+}

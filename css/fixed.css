@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top-row { position:static; }
+
+.c_links{}
+.c_links a { display:block;  padding:0 0 5px 0;	}
+
+
+.main{ padding:0; margin:0; }
+.resize {  padding:0; margin:0 auto; width:1132px; }
+.over{ overflow:hidden; }
+.pages{ float:left; width:70%;   }
+.rlinks{ float:left; width:27%; padding:0 0 0 3%;   }
+
+.pages2{ float:left; width:70%;    }
+.rlinks2{ float:left; width:27%; padding:0 0 0 3%;  }
+
+
+.rlinks li{  padding:0 0 3px 0;  }
+.rlinks li:hover{ text-decoration:underline; }
+
+
+.gallery{ padding:0; margin:0;  }
+.gallery img{  margin:10px; border:2px #666666 solid;   }
+.dform li{ list-style:none;   }
+.dform label{ float:left; width:200px; }

@@ -1,0 +1,59 @@
+create modal
+--------------
+
+<div id="modalContainer" class="containerPlus {buttons:'c', skin:'white', width:'500', height:'450', closed:'true', title:'container 4'}" style="position:fixed;top:100px;left:600px">
+        <div class="evidence">
+            <h3>Container 4 with dock placeholder!</h3>
+
+            <p>to preiconize containers just add the param <span style="font-weight: bold;">iconized:'true'</span></p>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras metus. Maecenas justo elit, lacinia sit amet, cursus ut, sagittis sed, eros. Suspendisse potenti. Maecenas nec nisi. Donec vestibulum sollicitudin tellus. Sed consequat pellentesque ante. Vestibulum turpis quam, vulputate nec, nonummy convallis, ultrices congue, ligula. Ut rutrum leo et orci. Proin pharetra. Nam non sem ut eros fringilla ornare. In ullamcorper lorem eget ipsum. Suspendisse semper enim in arcu cursus consectetuer. Suspendisse potenti. Proin libero eros, adipiscing quis, volutpat in, ultrices ut, lacus.</p>
+        <p>Nulla facilisi. Vestibulum vel magna in ante lobortis semper. Integer posuere justo et urna. Vestibulum sit amet sapien ut quam tempor fringilla. Fusce a neque a enim mattis dapibus. Ends with a paragraph element!</p>
+        <div style="text-align:right; width:100%; margin-top:20px;"><button id="close" onclick="$('#modalContainer').mb_close();">close</button></div>
+        <br>
+
+    </div>
+=================================================================================================
+
+<button id="openModal" onclick="$('#modalContainer').mb_open(); $('#modalContainer').mb_changeContainerContent('testpage?id=sended-id-is-897');">open modal </button>
+
+--------------------------------------------------------------------------------------------------
+
+create drog div
+---------------
+
+<div id="divlayout" class="containerPlus draggable resizable {buttons:'m,c',icon:'alert.png',closed:'true', skin:'black', width:'500', title:'container 4'}" style="position:fixed;top:100px;left:600px">
+        <div class="evidence">
+            <h3>Container 4 with dock placeholder!</h3>
+            <p>to preiconize containers just add the param <span style="font-weight: bold;">iconized:'true'</span></p>
+
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras metus. Maecenas justo elit, lacinia sit amet, cursus ut, sagittis sed, eros. Suspendisse potenti. Maecenas nec nisi. Donec vestibulum sollicitudin tellus. Sed consequat pellentesque ante. Vestibulum turpis quam, vulputate nec, nonummy convallis, ultrices congue, ligula. Ut rutrum leo et orci. Proin pharetra. Nam non sem ut eros fringilla ornare. In ullamcorper lorem eget ipsum. Suspendisse semper enim in arcu cursus consectetuer. Suspendisse potenti. Proin libero eros, adipiscing quis, volutpat in, ultrices ut, lacus.</p>
+        <p>Nulla facilisi. Vestibulum vel magna in ante lobortis semper. Integer posuere justo et urna. Vestibulum sit amet sapien ut quam tempor fringilla. Fusce a neque a enim mattis dapibus. Ends with a paragraph element!</p>
+    </div>
+
+=================================================================================================
+
+<button onclick="$('#divlayout').mb_changeContainerContent('testpage?id=sended-id-is-897');">#divlayout</button>
+<button onclick="$('#divlayout').mb_open(); $('#divlayout').mb_centerOnWindow(true); $('#divlayout').mb_switchFixedPosition(); $('#divlayout').mb_toggle(); $('#divlayout').mb_fullscreen();" >change content 1</button><br>
+
+----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+full option
+-----------
+
+
+

@@ -1,0 +1,41 @@
+
+//main doc url 
+  http://www.zurb.com/playground/jquery_image_slider_plugin
+==============================================================================================
+
+
+$('#featured').orbit({
+     animation: 'fade',                  // fade, horizontal-slide, vertical-slide, horizontal-push
+     animationSpeed: 800,                // how fast animtions are
+     timer: true, 			 // true or false to have the timer
+     advanceSpeed: 4000, 		 // if timer is enabled, time between transitions 
+     pauseOnHover: false, 		 // if you hover pauses the slider
+     startClockOnMouseOut: false, 	 // if clock should start on MouseOut
+     startClockOnMouseOutAfter: 1000, 	 // how long after MouseOut should the timer start again
+     directionalNav: true, 		 // manual advancing directional navs
+     captions: true, 			 // do you want captions?
+     captionAnimation: 'fade', 		 // fade, slideOpen, none
+     captionAnimationSpeed: 800, 	 // if so how quickly should they animate in
+     bullets: false,			 // true or false to activate the bullet navigation
+     bulletThumbs: false,		 // thumbnails for the bullets
+     bulletThumbLocation: '',		 // location from this file where thumbs will be
+     afterSlideChange: function(){} 	 // empty function 
+});
+
+===============================================================================================
+
+
+test html code
+
+<div id="featured"> 
+         <div class="content" style="">
+             <h1>Orbit does content now.</h1>
+             <h3>Highlight me...I'm CSS3 font-face text.</h3>
+	 </div>
+         <a href=""><img src="http://www.zurb.com/playground/jquery-image-slider-plugin/captions.jpg" /></a>
+	 <img src="http://www.zurb.com/playground/jquery-image-slider-plugin/overflow.jpg" data-caption="#htmlCaption" />
+	 <img src="http://www.zurb.com/playground/jquery-image-slider-plugin/features.jpg"  />
+</div>
+<!-- Captions for Orbit -->
+<span class="orbit-caption" id="htmlCaption"><strong>I'm A Badass Caption:</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+

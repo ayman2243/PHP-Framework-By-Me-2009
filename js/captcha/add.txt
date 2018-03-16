@@ -1,0 +1,2 @@
+jquery/QapTcha.jquery.css
+jquery/QapTcha.jquery.js

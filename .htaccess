@@ -1,0 +1,18 @@
+#! Gomado .htaccess  ( reqiuerd for url requests ) .......  
+
+RewriteEngine On
+
+
+RewriteRule ^index.php/(.*)  index.php?site=$1 [QSA]
+
+
+#! RewriteRule ^index/(.*)  index.php?site=$1 [QSA]
+
+#! RewriteRule ^index index.php [L]
+
+
+
+
+
+
+

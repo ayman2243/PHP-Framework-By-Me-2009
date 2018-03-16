@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+/* Design By Ayman Elgohary exDevelop.com phone +20121207245 */
+p#vtip { font-family:Tahoma; font-size:11px; display: none; position: absolute; padding: 10px; left: 5px; background-color:#000;  border:solid 1px #999; outline:none; transition: all 0.25s ease-in-out;
+-webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; border-radius:6px; -webkit-border-radius:6px;
+-moz-border-radius:6px; z-index: 9999; color:#FFF; /* box-shadow: 0 0 10px rgba(80, 80, 80, 1);  -webkit-box-shadow: 0 0 10px rgba(80, 80, 80, 1);  -moz-box-shadow: 0 0 10px rgba(80, 80, 80, 1); border:1px solid rgba(80,80,80, 0.8); */}
+p#vtip #vtipArrow { position: absolute; top: -5px; left: 5px }
